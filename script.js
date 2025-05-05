@@ -27,8 +27,8 @@ function tampilkanBarang() {
                 <td>${index + 1}</td>
                 <td>${barang.nama}</td>
                 <td>${barang.jumlah}</td>
-                <td>${barang.harga}</td>
-                <td>${barang.total}</td>
+                <td>${barang.harga.toLocaleString()}</td
+                <td>${barang.total.toLocaleString()}</td>
             </tr>
         `;
         tabel.innerHTML += row;
