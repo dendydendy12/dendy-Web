@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="" id="formbarang">
+        <h1>Input data barang</h1>
+        <input type="text" id="nama" placeholder="Nama Barang" required />
+        <input type="number" id="jumlah" placeholder="Jumlah" required />
+        <input type="number" id="harga" placeholder="Harga Satuan" required />
+        <button type="submit">Tambah Barang</button>
+    </form>
+    <h2>Daftar Barang</h2>
+    <table>
+    <thead >
+        <tr>
+            <td>No</td>
+            <td>Nama</td>
+            <td>Jumlah</td>
+            <td>Harga Satuan</td>
+            <td>Total</td>
+        </tr>
+    </thead>
+    <tbody id="tabelbarang">
+
+    </tbody>
+</table>
+<script src="script.js"></script>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(231, 231, 255);
+    padding: 20px;
+    color: rgb(61, 61, 218);
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: #ccc;
+}
+
+form input, form button{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+button {
+    background-color: rgb(61, 61, 218);
+    color: #fff;
+    border-radius: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-color: blue;
+}
+
+thead, td {
+    border: 1px solid #aaa;
+    padding: 9px;
+    text-align: center;
+
+}
+
+thead {
+    background-color: #eee;
+    margin: 30px;
+    padding: 30px;
+}
